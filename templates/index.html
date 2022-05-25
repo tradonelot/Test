@@ -77,7 +77,7 @@
 
 var seriesOptions = [],
     seriesCounter = 0,
-    names = ['PE17350', 'CE17350'];
+    names = ['PE16150', 'CE16150'];
 	names2 = ['PE17400', 'CE17400'];
 	names3 = ['PE17450', 'CE17450'];
 	cont = 1;
@@ -139,7 +139,7 @@ function createChart(cont,settitle) {
 //chart 1
 function success(data) {
 
-    var name = this.url.match(/(PE17350|CE17350)/)[0];
+    var name = this.url.match(/(PE16150|CE16150)/)[0];
 //alert(name);
 	
     var i = names.indexOf(name);
@@ -164,12 +164,12 @@ function success(data) {
 
 Highcharts.getJSON(
     //'https://cdn.jsdelivr.net/gh/Niftyinvest18/nifty@main/PE17350.json',
-    'PE17350.json',
+    'PE16150.json',
     success
 );
 Highcharts.getJSON(
    // 'https://cdn.jsdelivr.net/gh/Niftyinvest18/nifty@main/CE17350.json',
-    'CE17350.json',
+    'CE16150.json',
     success
 );
 

@@ -29,7 +29,7 @@ print(output)
 expdt = "22MAY" #22113
 
 # Call Range
-strike = 17350
+strike = 16150
 ST1 = strike + 50
 ST2 = strike + 100
 ST3 = strike + 150
